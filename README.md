@@ -6,18 +6,18 @@
 
 ## :dart: About
 
-This project 
+Real-time chat is a multi-user web-application for typing messages to users who are in your messaging chanel. 
 
 ## :pencil2: Description
 
-.
+The project consist of two part client and server. Client realize frontend and part of business logic. More create with usage React.js framework and with inclusions of Bootstrap patterns for faster realisation of stylish view. Part of server it is asynchrone interaction with clients and mongodb.
 
 ## :open_file_folder: Requirements
 
 1. ### :handbag: **Client**
-   - Realize business logic inner frontend part.
+   - Realize business logic inner frontend part via usage React.js.
    - Responsible for the transfer client data to NodeJs server.
-   - Create and render visual a web-application view.
+   - Create and render visual a web-application view via usage Bootstrap.
 
 2. ### :office: **Server**
    - Establish connection with clients.
@@ -36,14 +36,14 @@ mongod
 # Run the Node.js server
 node server/src/server.js
 
-# Run the client (example with server IP 127.0.0.1 and file to send)
+# Run the client
 cd client
 npm start
 ```
 
 ## :page_with_curl: License
 
-   - Badges: Links have been updated to point to the GitHub repository for the Java project.
-   - Bash Example: Provides command examples for compiling and running the client and server programs in Java.
-   - Code: Example of Java client and server code implementing file transfer over TCP.
-To configure the badges, replace your-username/tcp-file-transfer-java with the actual parameters of your repository.
+   - Badges: Links have been updated to point to the GitHub repository for the frontend project.
+   - Bash Example: Provides command examples for compiling and running the client and server programs.
+   - Code: Example of client and server code implementing real time chat.
+To configure the badges, replace your-username/real-time-chat with the actual parameters of your repository.
